@@ -1,0 +1,1193 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Cube/HissCube.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Room.tscn" type="PackedScene" id=2]
+[ext_resource path="res://PlayAnims.gd" type="Script" id=3]
+[ext_resource path="res://assets/player/Player.tscn" type="PackedScene" id=4]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.0123565, 0, 0.999924, 0, 1, 0, -0.999924, 0, 0.0123565, 3.91092, 2.85145, 0 )
+visible = false
+current = true
+
+[node name="Player" parent="." instance=ExtResource( 4 )]
+transform = Transform( 0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 1.24094, 1.09976, -5.14782 )
+mouse_sensitivity = Vector2( 0.5, 0.5 )
+mouse_acceleration = 0.222
+
+[node name="SketchUp2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 2.54, 0, 0, 0, -3.02792e-07, 2.54, 0, -2.54, -3.02792e-07, 3.67989, 0, 0 )
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.02811, 1.44996, -5.38986 )
+omni_range = 15.3361
+
+[node name="Hiss" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 3.1852, -4.12867, -9.90668 )
+distance = 5
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node2" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 2.18, -3.48294, -9.90668 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node3" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 1.26151, -3.22044, -9.90668 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node4" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 0.361747, -3.60788, -9.90668 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node5" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -0.497235, -3.33086, -9.90668 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node6" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -1.40625, -3.00609, -9.90668 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node7" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -2.40846, -3.32544, -9.90668 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node8" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -3.43066, -3.77604, -9.90668 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node9" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -4.32873, -3.10683, -9.90668 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node10" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -5.3182, -5.10683, -9.90668 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node11" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -6.12705, -5.86217, -9.90668 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node12" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -7.96526, -5.43469, -9.90668 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node14" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -8.90016, -7.60808, -9.90668 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node15" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -9.85912, -8.1793, -9.90668 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node13" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -7.04282, -9.43469, -9.90668 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node16" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -10.8209, -6.46939, -9.90668 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node41" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -8.89436, -6.46939, -8.99672 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node42" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -12.8929, -7.12858, -8.99672 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node43" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -11.5797, -6.6989, -8.99672 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node44" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -12.3117, -6.6989, -8.99672 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node45" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -13.7733, -7.118, -8.97099 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node46" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -17.3779, -7.118, -8.97099 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node47" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -16.3417, -8.23466, -8.91624 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node48" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -18.3673, -5.41106, -8.97099 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node49" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -19.2577, -6.26392, -9.12055 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node17" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -11.7199, -7.12858, -9.90668 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node18" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -12.915, -6.6989, -9.90668 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node19" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -13.925, -6.6989, -9.90668 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node20" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -15.4371, -7.118, -9.88095 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node21" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -16.3562, -7.118, -9.88095 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node22" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -17.4118, -7.52009, -9.88095 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node23" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -18.3673, -5.41106, -9.88095 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node24" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -19.2577, -6.26392, -10.0305 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node25" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -20.4182, -6.26392, -10.0305 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node26" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -14.6032, -4.12867, -8.99672 )
+distance = 5
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node27" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 3.10083, -3.48294, -8.99672 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node28" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 2.14559, -3.22044, -8.99672 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node29" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 0.361747, -3.60788, -8.99672 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node30" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -10.4637, -3.33086, -8.99672 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node31" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 1.25671, -3.00609, -8.99672 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node32" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -0.650631, -3.32544, -8.99672 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node33" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -1.64766, -3.77604, -8.99672 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node34" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -4.72415, -3.49168, -8.99672 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node35" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -2.62886, -5.10683, -8.99672 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node36" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -3.63774, -5.86217, -8.99672 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node37" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -5.69766, -5.43469, -8.99672 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node38" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -7.75476, -7.60808, -8.99672 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node39" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -9.85912, -8.1793, -8.99672 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node40" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -6.63284, -9.78603, -8.99672 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node50" parent="Hiss" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -20.4182, -6.26392, -9.12055 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="Hiss2" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node51" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 3.1852, -4.49453, -1.71031 )
+distance = 5
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node52" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 2.18, -3.8488, -1.71031 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node53" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 1.26151, -3.5863, -1.71031 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node54" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 0.361747, -3.97374, -1.71031 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node55" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -0.497235, -3.69672, -1.71031 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node56" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -1.40625, -3.37195, -1.71031 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node57" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -2.40846, -3.6913, -1.71031 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node58" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -3.43066, -4.1419, -1.71031 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node59" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -4.32873, -3.47269, -1.71031 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node88" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -7.75476, -7.97394, -0.800352 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node89" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -9.85912, -8.54516, -0.800352 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node90" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -6.63284, -10.1519, -0.800352 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node91" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -8.89436, -6.83525, -0.800352 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node92" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -12.8929, -7.49445, -0.800352 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node93" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -11.5797, -7.06476, -0.800352 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node94" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -12.3117, -7.06476, -0.800352 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node95" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -13.7733, -7.48386, -0.774622 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node96" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -17.3779, -7.48386, -0.774622 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node97" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -16.3417, -8.60052, -0.719878 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node98" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -18.3673, -5.77693, -0.774622 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node99" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -19.2577, -6.62978, -0.924183 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node100" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -20.4182, -6.62978, -0.924183 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node60" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -5.3182, -5.47269, -1.71031 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node61" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -6.12705, -6.22803, -1.71031 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node62" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -7.96526, -5.80056, -1.71031 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node63" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -8.90016, -7.97394, -1.71031 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node64" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -9.85912, -8.54516, -1.71031 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node65" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -7.04282, -9.80056, -1.71031 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node66" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -10.8209, -6.83525, -1.71031 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node67" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -11.7199, -7.49445, -1.71031 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node68" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -12.915, -7.06476, -1.71031 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node69" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -13.925, -7.06476, -1.71031 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node70" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -15.4371, -7.48386, -1.68458 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node71" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -16.3562, -7.48386, -1.68458 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node72" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -17.4118, -7.88596, -1.68458 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node73" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -18.3673, -5.77693, -1.68458 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node74" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -19.2577, -6.62978, -1.83414 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node75" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -20.4182, -6.62978, -1.83414 )
+distance = 7
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node76" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -14.6032, -4.49453, -0.800352 )
+distance = 5
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node77" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 3.10083, -3.8488, -0.800352 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node78" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 2.14559, -3.5863, -0.800352 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node79" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 0.361747, -3.97374, -0.800352 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node80" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -10.4637, -3.69672, -0.800352 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node81" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 1.25671, -3.37195, -0.800352 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node82" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -0.650631, -3.6913, -0.800352 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node83" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -1.64766, -4.1419, -0.800352 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node84" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -4.72415, -3.85755, -0.800352 )
+distance = 4
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node85" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -2.62886, -5.47269, -0.800352 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node86" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -3.63774, -6.22803, -0.800352 )
+distance = 6
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node87" parent="Hiss2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 3, 0, 0, 0, 1, -5.69766, -5.80056, -0.800352 )
+distance = 3
+direction = Vector3( 0, 1, 0 )
+
+[node name="Hiss3" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.4, 0, 0, 0, 1, 0, 0, 0, 0.4, -5.44027, -1.36381, -5.0178 )
+direction = Vector3( 0, 1, 0 )
+
+[node name="double_node2" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -10.168, 4.16819, -14.4878 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node3" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -11.418, 3.47393, -14.4878 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node4" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -10.8903, 4.08079, -15.2906 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node12" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -10.377, 1.89267, -14.9237 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node13" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -11.627, 1.19842, -14.9237 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node14" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -11.0993, 1.80527, -15.7264 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node15" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -11.0993, 0.620114, -16.7255 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node16" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -10.3689, 0.865208, -15.2887 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node5" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -10.8903, 2.89563, -16.2897 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node6" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -10.1599, 3.14072, -14.8528 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node7" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -11.4955, 3.97596, -13.535 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node8" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -12.7455, 3.28171, -13.535 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node9" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -12.2178, 3.88856, -14.3377 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node10" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -12.2178, 2.7034, -15.3369 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node11" parent="Hiss3" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -11.4874, 2.9485, -13.9 )
+distance = 7
+direction = Vector3( 0, 0, 1 )
+
+[node name="Hiss4" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node17" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -1.85055, 4.16819, -15.0153 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node18" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.10052, 3.47393, -15.0153 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node19" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -2.57285, 4.08079, -15.818 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node20" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -2.57285, 2.89563, -16.8172 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node21" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -1.84241, 3.14072, -15.3803 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node22" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.17806, 3.97596, -14.0624 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node23" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -4.42803, 3.28171, -14.0624 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node24" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.90037, 3.88856, -14.8652 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node25" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.90037, 2.7034, -15.8643 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node26" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.16992, 2.9485, -14.4274 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node27" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -2.05958, 1.89267, -15.4511 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node28" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.30955, 1.19842, -15.4511 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node29" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -2.78188, 1.80527, -16.2538 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node30" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -2.78188, 0.620114, -17.253 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node31" parent="Hiss4" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -2.05144, 0.865208, -15.8161 )
+distance = 8
+direction = Vector3( 0, 0, 1 )
+
+[node name="Hiss5" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node17" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.79157, 2.8906, 13.0384 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node18" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -5.04154, 2.19635, 13.0384 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node19" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -4.51387, 2.80321, 12.2357 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node20" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -4.0006, 0.615093, 12.6026 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node21" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -5.25058, -0.0791628, 12.6026 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node22" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -4.72291, 0.527694, 11.7998 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node23" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -4.72291, -0.657467, 10.8007 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node24" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.99246, -0.412373, 12.2376 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node25" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -4.51387, 1.61805, 11.2365 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node26" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -3.78343, 1.86314, 12.6734 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node27" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -5.11908, 2.69838, 13.9912 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node28" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -6.36906, 2.00413, 13.9912 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node29" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -5.84139, 2.61098, 13.1885 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node30" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -5.84139, 1.42582, 12.1894 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node31" parent="Hiss5" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -5.11094, 1.67092, 13.6262 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="Hiss8" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node17" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -15.5244, 2.8906, 13.0384 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node18" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -16.7744, 2.19635, 13.0384 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node19" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -16.2467, 2.80321, 12.2357 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node20" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -15.7334, 0.615093, 12.6026 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node21" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -16.9834, 4.97055, 12.6025 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node22" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -13.9854, 0.527694, 11.7998 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node23" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -16.4557, 1.70324, 10.8007 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node25" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -13.0705, 1.61805, 11.2365 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node26" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -15.5162, 1.86314, 12.6734 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node27" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -13.8525, 2.69838, 13.9912 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node28" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -18.1019, 2.00413, 13.9912 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node29" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -17.5742, 2.61098, 13.1885 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node30" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -17.5742, 1.42582, 12.1894 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="double_node31" parent="Hiss8" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -8.14603e-07, 0.6, 0, -5, -9.77524e-08, -16.8438, 4.09252, 13.6262 )
+distance = -9
+direction = Vector3( 0, 0, 1 )
+
+[node name="Hiss6" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node32" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -18.8841, 21.7753, -5.0428 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node33" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -16.1602, 21.081, -5.0428 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node34" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -17.1794, 21.6879, -5.84552 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node35" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -19.0931, 19.4998, -3.5022 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node36" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -20.3431, 18.8055, -8.60709 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node37" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -19.8154, 19.4124, -6.28135 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node38" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -19.8154, 19.8633, -7.2805 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node39" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -19.085, 18.4723, -8.18442 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node40" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -18.061, 20.5027, -6.84467 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node41" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -18.876, 20.7478, -5.40779 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node42" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -20.2116, 21.583, -4.08995 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node43" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -21.4616, 20.8888, -4.08995 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node44" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -20.9339, 21.4956, -2.39315 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node45" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -20.9339, 20.3105, -1.43449 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node46" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -20.2035, 20.5556, -4.45493 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node47" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -16.4977, 21.7753, -3.94264 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node48" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -13.7738, 21.081, -3.94264 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node49" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -14.793, 21.6879, -4.74536 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node50" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -16.7067, 19.4998, -2.40203 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node51" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -17.9567, 18.8055, -7.50692 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node52" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -17.429, 19.4124, -5.18118 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node53" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -17.429, 18.2272, -6.18033 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node54" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -16.6986, 18.4723, -7.08426 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node55" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -15.6745, 20.5027, -5.7445 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node56" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -16.4895, 20.7478, -4.30762 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node57" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -17.8252, 21.583, -2.98978 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node58" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -19.0752, 20.8888, -2.98978 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node59" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -18.5475, 21.4956, -1.29298 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node60" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -18.5475, 20.3105, -0.334328 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node61" parent="Hiss6" instance=ExtResource( 1 )]
+transform = Transform( 0.6, 0, 0, 0, -5, -9.05975e-08, 0, 7.54979e-07, -0.6, -17.817, 20.5556, -3.35477 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="Hiss7" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="double_node62" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -10.1169, 21.7753, -5.0428 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node63" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -7.39299, 21.081, -5.0428 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node64" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -8.41225, 21.6879, -5.84552 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node65" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -10.3259, 19.4998, -3.5022 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node66" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -11.5759, 18.8055, -8.60709 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node67" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -11.0482, 19.4124, -6.28135 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node68" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -11.0482, 18.2272, -7.28049 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node69" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -10.3178, 18.4723, -8.18442 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node70" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -9.29375, 20.5027, -6.84467 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node71" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -10.1088, 20.7478, -5.40779 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node72" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -11.4444, 21.583, -4.08995 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node73" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -12.6944, 20.8888, -4.08995 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node74" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -12.1667, 21.4956, -2.39315 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node75" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -12.1667, 20.3105, -1.43449 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node76" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -11.4363, 20.5556, -4.45493 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node77" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -7.73046, 21.7753, -3.94264 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node78" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -5.00656, 21.081, -3.94264 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node79" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -6.02582, 21.6879, -4.74536 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node80" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -7.9395, 19.4998, -2.40203 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node81" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -9.18947, 18.8055, -7.50692 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node82" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -8.6618, 19.4124, -5.18118 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node83" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -8.6618, 18.2272, -6.18033 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node84" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -7.93136, 18.4723, -7.08426 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node85" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -6.90732, 20.5027, -5.7445 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node86" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -7.72233, 20.7478, -4.30762 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node87" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -9.05798, 21.583, -2.98978 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node88" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -10.308, 20.8888, -2.98978 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node89" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -9.78028, 21.4956, -1.29298 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node90" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -9.78028, 20.3105, -0.334328 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node91" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -9.04984, 20.5556, -3.35477 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node92" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -14.3071, 18.2272, -10.6964 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node93" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -13.5767, 18.4723, -11.6004 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node94" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -12.5527, 20.5027, -10.2606 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node95" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -13.3677, 20.7478, -8.82373 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node96" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -14.7033, 21.583, -7.50589 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node97" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -15.9533, 20.8888, -7.50589 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node98" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -15.4256, 21.4956, -5.80909 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node99" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -15.4256, 20.3105, -4.85044 )
+distance = 10
+direction = Vector3( 0, -1, 0 )
+
+[node name="double_node100" parent="Hiss7" instance=ExtResource( 1 )]
+transform = Transform( -4.52987e-08, 2.39981e-14, -0.6, -9.05975e-08, -5, 3.96014e-15, -0.6, 7.54979e-07, 4.52987e-08, -14.6952, 20.5556, -7.87088 )
+distance = 10
+direction = Vector3( 0, -1, 0 )

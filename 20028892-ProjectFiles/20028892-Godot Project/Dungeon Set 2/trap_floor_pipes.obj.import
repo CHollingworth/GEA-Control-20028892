@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/trap_floor_pipes.obj-2d5e071243fea2462aad7aae8d7be1dc.mesh"
+
+[deps]
+
+files=[ "res://.import/trap_floor_pipes.obj-2d5e071243fea2462aad7aae8d7be1dc.mesh" ]
+
+source_file="res://Dungeon Set 2/trap_floor_pipes.obj"
+dest_files=[ "res://.import/trap_floor_pipes.obj-2d5e071243fea2462aad7aae8d7be1dc.mesh", "res://.import/trap_floor_pipes.obj-2d5e071243fea2462aad7aae8d7be1dc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

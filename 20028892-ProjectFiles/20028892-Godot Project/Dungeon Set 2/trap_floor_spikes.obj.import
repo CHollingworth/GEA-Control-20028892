@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/trap_floor_spikes.obj-7c9b128cfcc9fd7e4b23b2d8538fce93.mesh"
+
+[deps]
+
+files=[ "res://.import/trap_floor_spikes.obj-7c9b128cfcc9fd7e4b23b2d8538fce93.mesh" ]
+
+source_file="res://Dungeon Set 2/trap_floor_spikes.obj"
+dest_files=[ "res://.import/trap_floor_spikes.obj-7c9b128cfcc9fd7e4b23b2d8538fce93.mesh", "res://.import/trap_floor_spikes.obj-7c9b128cfcc9fd7e4b23b2d8538fce93.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

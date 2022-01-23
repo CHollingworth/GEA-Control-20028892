@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/struct_large_straight_wall.obj-c5133acbfe58c67e80a21d53ea5e52bf.mesh"
+
+[deps]
+
+files=[ "res://.import/struct_large_straight_wall.obj-c5133acbfe58c67e80a21d53ea5e52bf.mesh" ]
+
+source_file="res://Dungeon Set 2/struct_large_straight_wall.obj"
+dest_files=[ "res://.import/struct_large_straight_wall.obj-c5133acbfe58c67e80a21d53ea5e52bf.mesh", "res://.import/struct_large_straight_wall.obj-c5133acbfe58c67e80a21d53ea5e52bf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/struct_floor_tapered.obj-a43f0a4896593234f3ca874575395610.mesh"
+
+[deps]
+
+files=[ "res://.import/struct_floor_tapered.obj-a43f0a4896593234f3ca874575395610.mesh" ]
+
+source_file="res://Dungeon Set 2/struct_floor_tapered.obj"
+dest_files=[ "res://.import/struct_floor_tapered.obj-a43f0a4896593234f3ca874575395610.mesh", "res://.import/struct_floor_tapered.obj-a43f0a4896593234f3ca874575395610.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

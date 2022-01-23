@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/struct_pillar_mid_wall_main.obj-916865caeb7e5017690176d07b6c1c00.mesh"
+
+[deps]
+
+files=[ "res://.import/struct_pillar_mid_wall_main.obj-916865caeb7e5017690176d07b6c1c00.mesh" ]
+
+source_file="res://Dungeon Set 2/struct_pillar_mid_wall_main.obj"
+dest_files=[ "res://.import/struct_pillar_mid_wall_main.obj-916865caeb7e5017690176d07b6c1c00.mesh", "res://.import/struct_pillar_mid_wall_main.obj-916865caeb7e5017690176d07b6c1c00.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

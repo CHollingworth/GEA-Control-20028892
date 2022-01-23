@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/prop_wall_torch.obj-e9f516ddaee0d1a80dbaad7340828e42.mesh"
+
+[deps]
+
+files=[ "res://.import/prop_wall_torch.obj-e9f516ddaee0d1a80dbaad7340828e42.mesh" ]
+
+source_file="res://Dungeon Set 2/prop_wall_torch.obj"
+dest_files=[ "res://.import/prop_wall_torch.obj-e9f516ddaee0d1a80dbaad7340828e42.mesh", "res://.import/prop_wall_torch.obj-e9f516ddaee0d1a80dbaad7340828e42.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

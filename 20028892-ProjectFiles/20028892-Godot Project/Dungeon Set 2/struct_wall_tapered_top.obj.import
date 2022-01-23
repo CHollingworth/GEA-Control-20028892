@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/struct_wall_tapered_top.obj-2b6a54ff72697c29dcf9241f1c16bc37.mesh"
+
+[deps]
+
+files=[ "res://.import/struct_wall_tapered_top.obj-2b6a54ff72697c29dcf9241f1c16bc37.mesh" ]
+
+source_file="res://Dungeon Set 2/struct_wall_tapered_top.obj"
+dest_files=[ "res://.import/struct_wall_tapered_top.obj-2b6a54ff72697c29dcf9241f1c16bc37.mesh", "res://.import/struct_wall_tapered_top.obj-2b6a54ff72697c29dcf9241f1c16bc37.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/double_node.obj-6ae6c970a4f1824e20267016c3e9cd14.mesh"
+
+[deps]
+
+files=[ "res://.import/double_node.obj-6ae6c970a4f1824e20267016c3e9cd14.mesh" ]
+
+source_file="res://Cube/double_node.obj"
+dest_files=[ "res://.import/double_node.obj-6ae6c970a4f1824e20267016c3e9cd14.mesh", "res://.import/double_node.obj-6ae6c970a4f1824e20267016c3e9cd14.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

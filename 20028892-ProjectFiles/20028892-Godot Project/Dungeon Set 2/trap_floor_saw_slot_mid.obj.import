@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/trap_floor_saw_slot_mid.obj-af254c0b371440a704e3a16eb1c63958.mesh"
+
+[deps]
+
+files=[ "res://.import/trap_floor_saw_slot_mid.obj-af254c0b371440a704e3a16eb1c63958.mesh" ]
+
+source_file="res://Dungeon Set 2/trap_floor_saw_slot_mid.obj"
+dest_files=[ "res://.import/trap_floor_saw_slot_mid.obj-af254c0b371440a704e3a16eb1c63958.mesh", "res://.import/trap_floor_saw_slot_mid.obj-af254c0b371440a704e3a16eb1c63958.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

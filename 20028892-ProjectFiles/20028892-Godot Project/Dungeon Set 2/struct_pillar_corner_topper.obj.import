@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/struct_pillar_corner_topper.obj-50ff9c07cc7fdde6168afba3bb1caf7e.mesh"
+
+[deps]
+
+files=[ "res://.import/struct_pillar_corner_topper.obj-50ff9c07cc7fdde6168afba3bb1caf7e.mesh" ]
+
+source_file="res://Dungeon Set 2/struct_pillar_corner_topper.obj"
+dest_files=[ "res://.import/struct_pillar_corner_topper.obj-50ff9c07cc7fdde6168afba3bb1caf7e.mesh", "res://.import/struct_pillar_corner_topper.obj-50ff9c07cc7fdde6168afba3bb1caf7e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
